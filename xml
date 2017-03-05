@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestNgExamples">
+  <test name="TestNG">
+  		<groups>
+			<run>
+				<include name="database"/>
+			</run>
+		</groups>
+    <classes>
+       <class name="step.com.test.testngexamples.TestGroups"/>
+    </classes>
+  </test>
+</suite>
